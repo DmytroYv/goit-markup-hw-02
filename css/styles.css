@@ -1,5 +1,6 @@
 body{
     color: #434455;
+    background-color: #ffffff;
     font-family: Roboto, sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -9,7 +10,7 @@ body{
         font-family: Raleway, sans-serif;
         font-size: 18px;
         font-weight: 700;
-        line-height: 1.166;
+        line-height: 1.17;
         letter-spacing: 0.54px;
         text-transform: uppercase;
 }
@@ -25,6 +26,15 @@ body{
 .menu:active{
     color: #404BBF;
 }
+.menu:focus{
+    color: #404BBF;
+}
+.menu:hover{
+    color: #404BBF;
+}
+.contact{
+font-style: normal;
+}
 .contact-link{
     color: #434455;
     font-weight: 400;
@@ -34,7 +44,13 @@ body{
 .contact-link:active{
     color: #404BBF;
 }
-.contact {
+.contact-link:hover{
+    color: #404BBF;
+}
+.contact-link:focus{
+    color: #404BBF;
+}
+.contact-mobile {
     color: #434455;
     font-weight: 400;
     line-height: 1.5;
@@ -48,7 +64,7 @@ body{
         text-align: center;
         font-size: 56px;
         font-weight: 700;
-        line-height: 1.071;
+        line-height: 1.07;
         letter-spacing: 1.12px;
 }
 .btn{
@@ -58,12 +74,13 @@ body{
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.64px;
-        border-radius: 4px;
             background: #4D5AE5;
-            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .btn:hover{
         background: #404BBF;
+}
+.btn:focus{
+    background: #404BBF;
 }
 .title{
     color: #2E2F42;
@@ -84,7 +101,7 @@ body{
         text-align: center;
         font-size: 36px;
         font-weight: 700;
-        line-height: 1.111;
+        line-height: 1.11;
         letter-spacing: 0.72px;
         text-transform: capitalize;
 }
@@ -97,17 +114,32 @@ body{
 .our-portfolio-item{
     background: #FFFfff;
 }
+.title-our-portfolio{
+    color: #2E2F42;
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+}
 .footer-logo{
     color: #4D5AE5;
     font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.166;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
 .footer-logo-studio{
-color: #2E2F42;
+color: #F4F4FD;
+}
+footer .text{
+color: #F4F4FD;
+}
+.footer-box{
+    background-color: #2E2F42;
 }
 ul {
     list-style: none;
