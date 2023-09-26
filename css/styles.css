@@ -50,12 +50,6 @@ font-style: normal;
 .contact-link:focus{
     color: #404BBF;
 }
-.contact-mobile {
-    color: #434455;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.32px;
-}
 .page-sectio{
     background: #2E2F42;
 }
